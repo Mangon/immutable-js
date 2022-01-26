@@ -4008,7 +4008,7 @@ declare namespace Immutable {
      * deepData.getIn(['x', 0, 'y']) // 123
      * ```
      */
-    getIn(searchKeyPath: Iterable<unknown>, notSetValue?: unknown): unknown;
+    getIn(searchKeyPath: Iterable<unknown>, notSetValue?: unknown): any;
 
     /**
      * True if the result of following a path of keys or indices through nested
